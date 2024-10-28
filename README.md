@@ -23,11 +23,13 @@ Desviación: 1.72
 
 Distribución del modelo
 
-Se sigue una distribución normal, la cual presenta una gran simetría que podemos ver al comparar el comportamiento de la media con la mediana, ya que son valores muy similares, lo que indica una distribución simétrica de los datos. Por el otro lado el teorema del límite central establece que la suma o promedio de muchas variables aleatorias independientes tiende a seguir una distribución normal, independientemente de la distribución original de las variables. Esto hace que la normal sea una distribución esperada cuando muchos factores influyen en un resultado, como ocurre en casos en el mundo real como las calificaciones subjetivas, que tienden a estar influenciados por múltiples factores independientes. 
+Se sigue una distribución uniforme y continua, ya que como se puede ver en el histograma, todos los rangos de valores parecen tener la misma probabilidad de ocurrir, 
 
 2)¿Cuál es la probabilidad de que en la sucursal que abramos, si los datos que usamos fue en una comunidad semejante a la de Juriquilla, de que en promedio tengan un rating de 8.5 o más?
 
-Considerando que el promedio de los ratings es de 6.97 y la desviación es de 1.72, sobre una población como la de juriquilla de 160,000 habitantes, al aplicar el teorema del límite central, convirtiendo nuestro valor objetivo de 8.5 
+Considerando que el promedio de los ratings es de 6.97 y la desviación es de 1.72, en esta muestra de 1000, al aplicar el teorema del límite central, podemos encontrar nuestra z tomando en cuenta que la media que estamos buscando es de 8.5, por lo que la probabilidad de que los ratings en promedio sean de 8.5, es prácticamente nula. 
+
+Lo que se le podría recomendar al area de atención al cliente en este caso es mejorar el sistema con el que se evalúan los ratings, ya que no te da la suficiente información saber la calificación que le da un consumidor a un día en el supermercado para mejorar algún area, por lo que deberían enfocarse en analizar los días en los ratings más altos, para ver que patrones siguen, así mismo se debe de encontrar la forma de establecer una relación de los ratings con las ventas en el día, ya que se le da la misma importancia a un promedio de ratings en un día con bajas ventas en comparación a los que más ventas concentran. 
 
 
 Analisis mejorado
