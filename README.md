@@ -42,7 +42,15 @@ Agua:  En general, se estima que un supermercado consume entre 1,500 y 2,500 lit
 
 Empleados: Vamos a considerar más puestos de trabajo cómo lo es la seguridad y quienes hacen el mantenimiento. De los cuales el sueldo promedio aquí en México es de $8,000 a $10,000 pesos al mes y el del personal de mantenimiento es similar, oscilando entre $7,500 y $12,000 pesos al mes. 
 
-Visitas al supermercado: Estabamos asumiendo que una persona va en promedio 1 vez a la semana al supermercado, pero en muchos casos puede que hagan pequeñas compras dependiendo del día de la semana, considerando que hay días dodne ciertos productos son más baratos, o que si pensamos en que la mayor concentración de compras son en quincena.
+Visitas al supermercado: Estabamos asumiendo que una persona va en promedio 1 vez a la semana al supermercado, pero en muchos casos puede que hagan pequeñas compras dependiendo del día de la semana, considerando que hay días dodne ciertos productos son más baratos, o se gasta más los días que son quincena, para modelar el número de visitas semanales al supermercado con una media de 1.5 visitas por semana, que se puede ajustar según los datos disponibles, podemos utilizar una distribución de Poisson. De esta forma consideramos que cada cliente podría visitar el supermercado de manera independiente de otros clientes, y la frecuencia media de visitas puede estar bien representada por un número constante de 1.5 visitas por semana, entonces las ventas totales se ajustan multiplicando las ventas históricas por el número de visitas generadas por la distribución de Poisson.
 
-semana... ¿esto es cierto? ¿Qué otra cosa podrías hacer/asumir?
+Nuevos resultados:
+
+Nómina total: 1017569.0999999999
+Gasto total de luz mensual: 121418282.6
+Gasto de agua mensual: 21146.822
+Gasto total considerando luz (CFE) y agua: 122456998.52199998
+N1 (Solución 1): 21912.708120768093
+N2 (Solución 2): 21909.218233039912
+Porcentaje de la población necesario: 0.13695442575480057
 
